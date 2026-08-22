@@ -274,7 +274,7 @@ main,
       rgba(14, 8, 13, 0.4) 45%,
       rgba(14, 8, 13, 0.15) 70%
     ),
-    url("../image/photo-1636472718505-94fe6566a1b4.avif");
+    url("./image/photo-1636472718505-94fe6566a1b4.avif");
   background-size: cover;
   background-position: right center;
   background-repeat: no-repeat;
@@ -447,7 +447,7 @@ main,
   width: calc(46% + 1.5rem);
   background:
     linear-gradient(0deg, rgba(14, 8, 13, 0.55) 0%, transparent 35%),
-    url("../image/photo-1761483172122-561bee8ea9fd.avif");
+    url("./image/photo-1761483172122-561bee8ea9fd.avif");
   background-size: cover;
   background-position: center;
 }
