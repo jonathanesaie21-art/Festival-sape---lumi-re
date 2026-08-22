@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Festival Sape & Lumière — Palais des Congrès, Brazzaville</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Accueil.CSS" />
+  </head>
+  <body>
+    <div class="beam" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+      <div class="header-inner">
+        <a href="#top" class="brand">SAPE <span>&amp;</span> LUMIÈRE</a>
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Ouvrir le menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="main-nav" id="mainNav">
+          <a href="#top">Accueil</a>
+          <a href="../PROGRAMME/Programme.html">Programme</a>
+          <a href="../ARTISTES/Artistes.html">Artistes</a>
+          <a href="../BILLETTERIE/Billetterie.html">Billetterie</a>
+          <a href="../PARTENAIRES/Partenaire.html">Partenaires</a>
+          <a href="../FAQ/FAQ.HTML">FAQ</a>
+          <a href="../CONTACT/Contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- ACCUEIL (fusion Accueil + Festival + Univers) -->
+      <section class="hero">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-inner">
+          <p class="eyebrow">
+            Palais des Congrès — Brazzaville, République du Congo
+          </p>
+          <h1>Festival <em>Sape</em> &amp; Lumière</h1>
+          <p class="tagline">L'élégance rencontre la lumière.</p>
+          <p class="hero-desc">
+            Trois jours de musique, de mode, d'art et de créativité au cœur de
+            Brazzaville. Un hommage vivant à la Sape, où chaque silhouette
+            devient une scène.
+          </p>
+
+          <!-- Compte à rebours -->
+          <div
+            class="countdown"
+            id="countdown"
+            data-target="2026-09-11T18:00:00"
+          >
+            <div class="countdown-unit">
+              <span class="countdown-value" id="cdDays">00</span
+              ><span class="countdown-label">Jours</span>
+            </div>
+            <div class="countdown-unit">
+              <span class="countdown-value" id="cdHours">00</span
+              ><span class="countdown-label">Heures</span>
+            </div>
+            <div class="countdown-unit">
+              <span class="countdown-value" id="cdMinutes">00</span
+              ><span class="countdown-label">Min</span>
+            </div>
+            <div class="countdown-unit">
+              <span class="countdown-value" id="cdSeconds">00</span
+              ><span class="countdown-label">Sec</span>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="../BILLETTERIE/Billetterie.html" class="btn btn-gold"
+              >Réserver mon pass</a
+            >
+            <a href="#experience" class="btn btn-outline"
+              >Découvrir le festival</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- L'EXPÉRIENCE -->
+      <section class="experience" id="experience">
+        <div class="experience-inner">
+          <div class="experience-text">
+            <p class="eyebrow">L'expérience</p>
+            <h2>Une célébration de la <em>créativité congolaise</em></h2>
+            <span class="title-divider" aria-hidden="true"></span>
+            <p class="experience-desc">
+              Le Festival Sape &amp; Lumière est une invitation à explorer l'âme
+              créative du Congo à travers la musique, la haute couture et l'art
+              lumière. Un rendez-vous inédit où l'élégance de la Sape dialogue
+              avec la modernité artistique, sous les étoiles de Brazzaville.
+            </p>
+            <div class="experience-stats">
+              <div class="stat">
+                <span class="stat-value">3</span>
+                <span class="stat-label">Jours</span>
+              </div>
+              <div class="stat">
+                <span class="stat-value">12</span>
+                <span class="stat-label">Artistes</span>
+              </div>
+              <div class="stat">
+                <span class="stat-value">1</span>
+                <span class="stat-label">Palais</span>
+              </div>
+            </div>
+          </div>
+          <div class="experience-photo">
+            <div class="experience-caption">
+              <span>Édition 2026</span>
+              <strong>Brazzaville, Congo</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- UNIVERS -->
+      <section class="univers-section" id="univers">
+        <div class="section-head">
+          <p class="eyebrow">Univers</p>
+          <h2>Trois dimensions d'une même <em>passion</em></h2>
+        </div>
+        <div class="univers-grid">
+          <article
+            class="univers-card"
+            style="
+              background-image: url(&quot;../image/image-musique/photo-1470229722913-7c0e2dbbafd3.avif&quot;);
+            "
+          >
+            <div class="univers-card-content">
+              <span class="title-divider small" aria-hidden="true"></span>
+              <h3>Musique</h3>
+              <p>
+                Des sons afrobeats, rumba congolaise et électro-africaine portés
+                par les voix les plus envoûtantes du continent.
+              </p>
+              <a
+                href="../PROGRAMME/Programme.html
+              "
+                class="discover-link"
+                >Découvrir <span aria-hidden="true">→</span></a
+              >
+            </div>
+          </article>
+          <article
+            class="univers-card"
+            style="
+              background-image: url(&quot;../image/photo-1733322992706-1210ca79f4df.avif&quot;);
+            "
+          >
+            <div class="univers-card-content">
+              <span class="title-divider small" aria-hidden="true"></span>
+              <h3>Mode &amp; Sape</h3>
+              <p>
+                La Sape — Société des Ambianceurs et Personnes Élégantes — comme
+                art de vivre, entre héritage et avant-garde.
+              </p>
+              <a href="../PROGRAMME/Programme.html" class="discover-link"
+                >Découvrir <span aria-hidden="true">→</span></a
+              >
+            </div>
+          </article>
+          <article
+            class="univers-card"
+            style="
+              background-image: url(&quot;../image/image-art/photo-1780821903305-758d30f33e5e.avif&quot;);
+            "
+          >
+            <div class="univers-card-content">
+              <span class="title-divider small" aria-hidden="true"></span>
+              <h3>Art Lumière</h3>
+              <p>
+                Installations immersives, projections architecturales et
+                sculptures lumineuses transformant le Palais en galerie
+                nocturne.
+              </p>
+              <a href="../PROGRAMME/Programme.html" class="discover-link"
+                >Découvrir <span aria-hidden="true">→</span></a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <p class="brand">SAPE <span>&amp;</span> LUMIÈRE</p>
+          <p>Palais des Congrès<br />Brazzaville, République du Congo</p>
+        </div>
+        <nav class="footer-nav">
+          <a href="#top">Accueil</a>
+          <a href="../PROGRAMME/Programme.html">Programme</a>
+          <a href="../ARTISTES/Artistes.html">Artistes</a>
+          <a href="../BILLETTERIE/Billetterie.html">Billetterie</a>
+          <a href="../PARTENAIRES/Partenaire.html">Partenaires</a>
+          <a href="../FAQ/FAQ.HTML">FAQ</a>
+          <a href="../CONTACT/Contact.html">Contact</a>
+        </nav>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="https://wa.me/242067584295" aria-label="WhatsApp">WA</a>
+        </div>
+      </div>
+      <p class="footer-legal">
+        © 2026 Festival Sape &amp; Lumière — Tous droits réservés. Mentions
+        légales.
+      </p>
+    </footer>
+
+    <script src="../MAIN.JS"></script>
+  </body>
+</html>

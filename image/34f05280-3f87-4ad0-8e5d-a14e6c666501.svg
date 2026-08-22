@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="360" viewBox="0 0 600 360">
+  <title>Brasserie du Congo — BRASCO</title>
+  <desc>Version vectorielle de présentation. Les marques et emblèmes appartiennent à leurs détenteurs respectifs.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0b1736" flood-opacity="0.15"/></filter>
+  </defs>
+  <rect width="600" height="360" rx="24" fill="#ffffff"/>
+  <g transform="translate(0 5)">
+    <path d="M228 82 C286 53 363 52 421 74 C382 83 339 99 293 116 C267 126 244 121 228 110 C219 103 219 91 228 82Z" fill="#f0c51a"/>
+    <path d="M421 74 C444 59 456 60 471 73 C448 82 437 99 438 126 C440 168 452 190 481 211 C447 216 415 197 400 166 C386 137 392 96 421 74Z" fill="#b51f42"/>
+    <path d="M472 68 l8 18 19 2 -15 12 5 19 -17 -10 -17 10 5 -19 -15 -12 19 -2z" fill="#e9b91b" stroke="#b51f42" stroke-width="4"/>
+    <text x="300" y="210" text-anchor="middle" fill="#0b6044" font-family="Georgia, serif" font-size="78" font-weight="700" letter-spacing="2">BRASCO</text>
+    <text x="300" y="244" text-anchor="middle" fill="#0b6044" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">BRASSERIES DU CONGO</text>
+  </g>
+</svg>

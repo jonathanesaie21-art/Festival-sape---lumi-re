@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="360" viewBox="0 0 600 360">
+  <title>BDEAC</title>
+  <desc>Version vectorielle de présentation. Les marques et emblèmes appartiennent à leurs détenteurs respectifs.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0b1736" flood-opacity="0.15"/></filter>
+  </defs>
+  <rect width="600" height="360" rx="24" fill="#ffffff"/>
+  <g transform="translate(125 45)" fill="#233bd1">
+    <path d="M175 0 C113 14 78 64 82 119 C84 153 101 178 126 194 C78 193 40 168 30 132 C16 82 47 24 105 5 C128 -3 153 -5 175 0Z"/>
+    <path d="M181 29 C211 48 228 79 226 112 C224 154 191 188 146 193 C114 196 86 181 70 158 C89 166 111 166 129 157 C153 145 167 123 165 96 C163 69 171 47 181 29Z"/>
+    <circle cx="126" cy="112" r="39"/>
+  </g>
+  <text x="300" y="282" text-anchor="middle" fill="#233bd1" font-family="Arial, sans-serif" font-size="64" font-weight="900" letter-spacing="-2">BDEAC</text>
+  <text x="300" y="322" text-anchor="middle" fill="#233bd1" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.1">BANQUE DE DÉVELOPPEMENT DES ÉTATS DE L’AFRIQUE CENTRALE</text>
+</svg>
