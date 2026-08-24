@@ -410,14 +410,20 @@ h1 em {
   color: var(--music);
   border-color: var(--music);
 }
-.badge.mode {
-  color: var(--mode);
-  border-color: var(--mode);
+.badge-mode {
+  display: inline-block;
+  border: 2px solid var(--or);
+  border-radius: 15px;
+  color: var(--or);
+  padding: 0 2%;
+  white-space: nowrap;
 }
-.badge.art {
-  color: var(--anthracite);
-  background: var(--art);
-  border-color: var(--art);
+.badge-art {
+  display: inline-block;
+  color: var(--or);
+  border: 2px solid var(--or);
+  border-radius: 15px;
+  padding: 0 2%;
 }
 .row .venue {
   text-align: right;
