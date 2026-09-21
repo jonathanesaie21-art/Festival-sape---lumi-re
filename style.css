@@ -330,6 +330,7 @@ main,
   gap: 1.1rem;
   margin: 0 0 2.2rem;
 }
+
 .countdown-unit {
   min-width: 68px;
   text-align: center;
@@ -344,6 +345,9 @@ main,
   font-size: 1.7rem;
   color: var(--or);
   line-height: 1;
+}
+.countdown-value.countdown-negative {
+  color: #ff4444;
 }
 .countdown-label {
   display: block;

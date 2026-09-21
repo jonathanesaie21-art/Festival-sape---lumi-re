@@ -13,23 +13,23 @@ if (countdownEl) {
 
   function updateCountdown() {
     const diff = target - Date.now();
-    if (diff <= 0) {
-      dEl.textContent =
-        hEl.textContent =
-        mEl.textContent =
-        sEl.textContent =
-          "00";
-      clearInterval(timer);
-      return;
-    }
-    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
-    const minutes = Math.floor((diff / (1000 * 60)) % 60);
-    const seconds = Math.floor((diff / 1000) % 60);
-    dEl.textContent = pad(days);
-    hEl.textContent = pad(hours);
-    mEl.textContent = pad(minutes);
-    sEl.textContent = pad(seconds);
+    const isNegative = diff < 0;
+    const absDiff = Math.abs(diff);
+
+    const days = Math.floor(absDiff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((absDiff / (1000 * 60 * 60)) % 24);
+    const minutes = Math.floor((absDiff / (1000 * 60)) % 60);
+    const seconds = Math.floor((absDiff / 1000) % 60);
+
+    const sign = isNegative ? "-" : "";
+
+    dEl.textContent = sign + pad(days);
+    hEl.textContent = sign + pad(hours);
+    mEl.textContent = sign + pad(minutes);
+    sEl.textContent = sign + pad(seconds);
+    [dEl, hEl, mEl, sEl].forEach((el) => {
+      el.classList.toggle("countdown-negative", isNegative);
+    });
   }
 
   updateCountdown();
